@@ -7,7 +7,7 @@ body {
 }
 
 .logoNav {
-    border-bottom: 2px solid rgba(255, 0, 0, .3);
+    border-bottom: 2px solid rgba(195, 16, 0, .6);
     width: 100%;
     height: 75px;
     text-align: center;
@@ -62,16 +62,15 @@ body {
     margin-top: 20px;
     height: 35px;
     width: 300px;
-    right: 5%;
-    top: 20px;
+    margin-left: 15px;
 }
 
 #searchForm button {
     position: relative;
     height: 35px;
     margin-top: 20px;
-    right: 20%;
     border-radius: 0px;
+    background-color: black;
 }
 
 /* right nav col */
