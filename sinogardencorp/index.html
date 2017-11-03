@@ -1,38 +1,94 @@
 <html>
 
-	<head>
-		<link href="plugins/css/bootstrap.css" rel="stylesheet">
-       	 	<script src="plugins/js/jquery-3.2.1.js"></script>
-       	 	<script src="plugins/js/bootstrap.js"></script>
-        <link href="https://fonts.googleapis.com/css?family=Source+Sans+Pro" rel="stylesheet">
+<head>
 
-		<link href="css/global.css" rel="stylesheet">
+    <link href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" rel="stylesheet" />
+    <link href="plugins/css/bootstrap.css" rel="stylesheet">
+    <script src="plugins/js/jquery-3.2.1.js"></script>
+    <script src="plugins/js/bootstrap.js"></script>
+    <link href="https://fonts.googleapis.com/css?family=Source+Sans+Pro" rel="stylesheet">
 
-	</head>
+    <link href="css/global.css" rel="stylesheet">
+    <link href="css/frontpage.css" rel="stylesheet">
 
-	<body>
-		<div class="container LogoNav">
-			
-			<div class="row">
-                    <div class="col-md-4">
-                        <div class="logoWrapper">
-                            <a> 
-                            <img src="/sinogardencorp/media/34e87a8.png" ></a>
-                            <h3>SinoGardenCorp</h3>
+</head>
+
+<body>
+
+    <div class="container fullscreenBanner">
+        <img src="media/temp.jpg" />
+    </div>
+
+    <nav class="navbar navbar-inverse bannerNav">
+        <div class="container-fluid">
+            <ul class="nav navbar-nav navbar-right">
+                <li><a href="#"> Tab 1 </a></li>
+                <li><a href="#"> Tab 2 </a></li>
+                <li><a href="#"> Tab 3 </a></li>
+                <li><a href="#"> Tab 4 </a></li>
+                <li><a href="#"> Tab 5 </a></li>
+                <li><a href="#"> About </a></li>
+            </ul>
+        </div>
+    </nav>
+
+
+
+    <div class="container LogoNav">
+        <div class="row">
+            <div class="col-md-4">
+
+                <div class="row wrapper">
+                    <img src="media/templogo.png">
+                    <h3>SINO GARDEN</h3>
+                </div>
+
+            </div>
+
+            <div class="col-md-4">
+
+                <div class="row wrapper">
+                    <form id="searchForm" action="" method="GET">
+                        <div class="col-sm-10">
+                            <input type="text" class="form-control" placeholder="Search" id="searchBar" />
+                        </div>
+                        <div class="col-sm-2">
+                            <!--                            <div class="input-group-btn">-->
+                            <button class="btn btn-primary" type="submit">
+                                    <span class="glyphicon glyphicon-search"></span>
+                                </button>
+                            <!--                            </div>-->
+                        </div>
+                    </form>
+                </div>
+
+            </div>
+
+            <div class="col-md-4">
+
+                <div class="row wrapper buttonWrapper">
+                    <div class="col-sm-8">
+                        <!--
+                        <button type="button" class="btn">English</button>
+                        <button type="button" class="btn">中文</button>
+-->
+                        <div class="anchorWrapper">
+                            <a href="#"> English </a>
+                            <a href="#"> 中文 </a>
                         </div>
                     </div>
-                
-				<div class="col-md-4">
-					<h3> 1 </h3>
-				</div>
+                    <div class="col-sm-4">
+                        <button type="button" class="btn">Explore</button>
+                    </div>
+                </div>
 
-				<div class="col-md-4">
-					<h3> 1 </h3>
-				</div>
+            </div>
+        </div>
+    </div>
 
-			</div>
 
-		</div>
-	</body>
+
+
+</body>
 
 </html>
