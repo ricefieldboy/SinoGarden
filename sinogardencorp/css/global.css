@@ -16,7 +16,8 @@ html,body {
     z-index: 999;
     position: absolute;
     top: 0;
-    padding: 0px;
+    padding-left: 15px;
+    padding-right: 15px;
     margin: 0px;
 }
 
@@ -57,17 +58,18 @@ html,body {
 }
 
 #searchForm input {
-/*    position: relative;*/
-    margin-top: 20px;
+    position: absolute;
     height: 35px;
-    width: 300px;
-    margin-left: 15px;
+    width: 100%;
+    top: 20px;
 }
 
 #searchForm button {
-    position: relative;
+    position: absolute;
     height: 35px;
-    margin-top: 20px;
+    width: auto;
+    top: 20px;
+    right: 50%;
     border-radius: 0px;
     background-color: black;
 }
@@ -76,7 +78,7 @@ html,body {
 
 .anchorWrapper {
     margin-top: 25px;
-    margin-left: 20px;
+    margin-left: 30px;
 }
 
 .anchorWrapper a {
@@ -108,7 +110,7 @@ html,body {
 
 /* footer */
 .footer {
-    height: 25px;
+    height: 75px;
     width: 100%;
 }
 
@@ -127,4 +129,5 @@ html,body {
 
 .footer .row {
     text-align: center;
+    margin-top: 25px;
 }
