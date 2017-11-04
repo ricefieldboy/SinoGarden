@@ -1,14 +1,14 @@
 .fullscreenBanner {
     height: 100%;
-    width: 100%;
+    width: 100%;  
     position: relative;
     top: 0px;
     padding: 0px;
-}
-
-.fullscreenBanner img {
-    height: 100%;
-    width: 100%;
+    background-image: url("../media/temp.jpg");
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
 }
 
 .bannerNav {
@@ -42,4 +42,25 @@ li:hover {
     -webkit-transition: 0.5s ease;
     transition: 0.5s ease;
     border-bottom: 3px solid black;
+}
+
+/* content grid starts here */
+.content-grid {
+    width: 100%;
+    height: 500px;
+}
+
+.col-content {
+    height: 500px;
+    border-top: 1px solid black;
+    border-bottom: 1px solid black;
+    border-left: 1px solid black;
+}
+
+.t3 {
+    height: 50%;
+}
+
+.t3:first-of-type {
+    border-bottom: 1px solid black;
 }
