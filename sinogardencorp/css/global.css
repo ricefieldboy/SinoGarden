@@ -1,8 +1,16 @@
-html,body {
+@font-face {
+    font-family: 'Open Sans';
+    font-style: normal;
+    src: url("../css/fonts/OpenSans-Regular.ttf");
+}
+
+html,
+body {
     height: 100%;
     width: 100%;
     margin: 0px;
     padding: 0px;
+    font-family: Open Sans;
 }
 
 .logoNav {
@@ -45,7 +53,7 @@ html,body {
 .wrapper h3 {
     float: left;
     font-size: 35;
-    font-family: 'Source Sans Pro', sans-serif;
+/*    font-family: 'Source Sans Pro', sans-serif;*/
     /*    margin: 0 auto;*/
 }
 
@@ -83,24 +91,25 @@ html,body {
 
 .anchorWrapper a {
     margin: 20px;
-    font-family: 'Source Sans Pro', sans-serif;
+/*    font-family: 'Source Sans Pro', sans-serif;*/
     font-size: 16px;
     text-decoration: none;
     color: black;
 }
 
 .buttonWrapper button {
-    width: 75px;
+    width: 100px;
     border-radius: 100px;
     margin: 0 auto;
     display: inline-block;
     margin-top: 20px;
     margin-left: 20px;
-    font-family: 'Source Sans Pro', sans-serif;
+/*    font-family: 'Source Sans Pro', sans-serif;*/
     font-size: 16px;
     background-color: black;
     color: red;
-    font-weight: 600;
+    font-weight: bold;
+    text-align: center;
 }
 
 .buttonWrapper button:hover {
@@ -109,6 +118,7 @@ html,body {
 }
 
 /* footer */
+
 .footer {
     height: 75px;
     width: 100%;
@@ -123,7 +133,7 @@ html,body {
 }
 
 .footer p {
-    font-family: 'Source Sans Pro', sans-serif;
+/*    font-family: 'Source Sans Pro', sans-serif;*/
     font-size: 16px;
 }
 
