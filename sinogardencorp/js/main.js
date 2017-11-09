@@ -10,7 +10,6 @@
         
         sr.reveal('.c2', {
           duration: 2000,
-          distance:'300px',
           viewFactor: 0.2
         });
         
