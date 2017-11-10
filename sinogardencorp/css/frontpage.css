@@ -55,29 +55,42 @@ li:hover {
 /* content grid starts here */
 
 .content-grid {
-    height: 500px;
+    height: auto;
     width: 100%;
-    margin-top: 50px;
+    margin-top: 5px;
+/*    border-top: 3px solid rgba(195, 16, 0, .6);*/
 }
 
 .col-content {
+    margin-top: 75px;
+    margin-bottom: 75px;
     width: 24.6666667%;
-    height: 100%;
-    border: 2px solid black;
-    border-radius: 25px;
+    height: 500px;
+
+/*    background-color: black;*/
+    color: white;
 }
 
 .c1 {
     margin-left: 8%;
+    background: url("../media/1.jpg");
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
 }
 
 .c2 {
     margin-left: 5%;
     margin-right: 5%;
+    background: url("../media/2.jpg");
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
 }
 
 .c3 {
     margin-right: 8%;
+    background: url("../media/3.jpg");
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
 }
 
 .t3 {
@@ -99,4 +112,6 @@ a {
 
 .col-heading h3 {
     font-size: 21px;
+    color: rgb(195, 16, 0);
+/*    font-weight: 600;*/
 }

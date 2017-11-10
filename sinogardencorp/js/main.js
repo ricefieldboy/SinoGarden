@@ -1,5 +1,5 @@
 //Scripp reveal
-        window.sr = ScrollReveal();
+        window.sr = ScrollReveal({reset:true});
         
         sr.reveal('.c1', {
           duration: 2000,
