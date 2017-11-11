@@ -2,7 +2,7 @@
         window.sr = ScrollReveal({reset:true});
         
         sr.reveal('.c1', {
-          duration: 500,
+          duration: 3500,
           distance:'300px',
             origin:'left',
 
@@ -10,7 +10,7 @@
         });
         
         sr.reveal('.c2', {
-          duration: 500,
+          duration: 3500,
             distance: '300px',
             origin:'left',
 
@@ -18,7 +18,7 @@
         });
         
         sr.reveal('.c3', {
-          duration: 500,
+          duration: 3500,
           distance:'300px',
             origin:'left',
 

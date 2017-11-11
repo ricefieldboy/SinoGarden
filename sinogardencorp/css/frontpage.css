@@ -13,6 +13,32 @@
 */
 }
 
+.fullscreenBanner button {
+    position: absolute;
+    top: 60%;
+    left: 45%;
+    width: 150px;
+    height: 50px;
+/*    background-color: white;*/
+    color: rgb(195, 16, 0);
+    text-decoration: none;
+    font-family: Open Sans !important;
+    font-size: 18px;
+    font-family: 600 !important;
+/*    background: none/*/
+    font-weight: bolder;
+    background-color: rgba(0 , 0 , 0, 0.7);
+    border: px solid black;
+    border-radius: 0px;
+    border-color: rgba(195, 16, 0, 0.2);
+}
+
+.fullscreenBanner button:hover {
+    color: white;   
+    background-color: rgba(0 , 0 , 0, 0.9);
+    transition: 1s;
+}
+
 .fullscreenBanner img {
     height: 100%;
     width: 100%;
@@ -58,7 +84,7 @@ li:hover {
     height: auto;
     width: 100%;
     margin-top: 5px;
-/*    border-top: 3px solid rgba(195, 16, 0, .6);*/
+    /*    border-top: 3px solid rgba(195, 16, 0, .6);*/
 }
 
 .col-content {
@@ -67,7 +93,7 @@ li:hover {
     width: 24.6666667%;
     height: 500px;
 
-/*    background-color: black;*/
+    /*    background-color: black;*/
     color: white;
 }
 
@@ -113,5 +139,5 @@ a {
 .col-heading h3 {
     font-size: 21px;
     color: rgb(195, 16, 0);
-/*    font-weight: 600;*/
+    /*    font-weight: 600;*/
 }
