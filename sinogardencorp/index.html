@@ -1,166 +1,186 @@
 <html>
 
-<head>
+    <head>
 
-    <link href="https://fonts.googleapis.com/css?family=Source+Sans+Pro" rel="stylesheet">
+        <link href="https://fonts.googleapis.com/css?family=Source+Sans+Pro" rel="stylesheet">
 
-    <link href="plugins/css/bootstrap.min.css" rel="stylesheet">
-    <link href="plugins/css/bootstrap-theme.min.css" rel="stylesheet">
-    <link href="plugins/css/font-awesome.min.css" rel="stylesheet">
+        <link href="plugins/css/bootstrap.min.css" rel="stylesheet">
+        <link href="plugins/css/bootstrap-theme.min.css" rel="stylesheet">
+        <link href="plugins/css/font-awesome.min.css" rel="stylesheet">
 
-    <script src="plugins/js/jquery-3.2.1.js"></script>
-    <script src="plugins/js/bootstrap.min.js"></script>
-    <script src="https://unpkg.com/scrollreveal/dist/scrollreveal.min.js"></script>
-    <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/Chart.js/2.7.1/Chart.js"></script>
-    <link href="css/global.css" rel="stylesheet">
-    <link href="css/frontpage.css" rel="stylesheet">
+        <script src="plugins/js/jquery-3.2.1.js"></script>
+        <script src="plugins/js/bootstrap.min.js"></script>
+        <script src="https://unpkg.com/scrollreveal/dist/scrollreveal.min.js"></script>
+        <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/Chart.js/2.7.1/Chart.js"></script>
+        <link href="css/global.css" rel="stylesheet">
+        <link href="css/frontpage.css" rel="stylesheet">
 
-</head>
+    </head>
 
-<body>
+    <body> 
 
-    <div class="container fullscreenBanner">
-        <img src="media/temp.jpg" />
-        <button type="button" class="btn">EXPLORE</button>
-    </div>
+        <div class="container fullscreenBanner">
 
-    <nav class="navbar navbar-inverse bannerNav">
-        <div class="container-fluid">
-            <ul class="nav navbar-nav navbar-right">
-                <li><a href="#"> Tab 1 </a></li>
-                <li><a href="#"> Tab 2 </a></li>
-                <li><a href="#"> Tab 3 </a></li>
-                <li><a href="#"> Tab 4 </a></li>
-                <li><a href="#"> Tab 5 </a></li>
-                <li><a href="#"> About </a></li>
-            </ul>
+            <div class="navbar navbar LogoNav">
+
+                <div class="row">
+                    <div class="col-xs-4">
+                        <div class="row wrapper">
+
+                        </div>
+                    </div>
+
+                    <div class="col-xs-4">
+                        <div class="row wrapper">
+                            <form id="searchForm" action="" method="GET">
+                                <div class="form-group col-sm-10">
+                                    <input type="text" class="form-control" placeholder="Search" id="searchBar" />
+
+                                    <button class="btn form-control" type="submit">
+                                        <i class="glyphicon glyphicon-search"></i>
+                                    </button>
+
+                                </div>
+                            </form>
+                        </div>
+                    </div>
+
+                    <div class="col-xs-4">
+                        <div class="row wrapper buttonWrapper">
+                            <div class="col-xs-6">
+                                <div class="anchorWrapper">
+                                    <a href="#"> English </a>
+                                    <a href="#"> 中文 </a>
+                                </div>
+                            </div>
+                            <div class="col-xs-6">
+                                <button type="button" class="btn">Explore</button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+            </div> 
+
+            <nav class="navbar navbar-inverse bannerNav">
+                <div class="container-fluid">
+                    <div class="navbar-header">
+                        <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
+                            <span class="icon-bar"></span>
+                            <span class="icon-bar"></span>
+                            <span class="icon-bar"></span>                        
+                        </button>
+                    </div>
+                    <div class="collapse navbar-collapse" id="myNavbar">    
+                        <ul class="nav navbar-nav navbar-right">
+                            <li class="dropdown"><a class="dropdown-toggle" data-toggle="dropdown" href="#">Tab 1 <span class="caret"></span></a>
+                                <ul class="dropdown-menu">
+                                    <li><a href="#">Tab 1-1</a></li>
+                                    <li><a href="#">Tab 1-2</a></li>
+                                    <li><a href="#">Tab 1-3</a></li>
+                                </ul>
+                            </li>
+                            <li class="dropdown"><a class="dropdown-toggle" data-toggle="dropdown" href="#">Tab 2 <span class="caret"></span></a>
+                                <ul class="dropdown-menu">
+                                    <li><a href="#">Tab 2-1</a></li>
+                                    <li><a href="#">Tab 2-2</a></li>
+                                    <li><a href="#">Tab 2-3</a></li>
+                                </ul></li>
+                            <li class="dropdown"><a class="dropdown-toggle" data-toggle="dropdown" href="#">Tab 3 <span class="caret"></span></a>
+                                <ul class="dropdown-menu">
+                                    <li><a href="#">About 1-1</a></li>
+                                    <li><a href="#">About 1-2</a></li>
+                                    <li><a href="#">About 1-3</a></li>
+                                </ul></li>
+                        </ul>
+                    </div>
+                </div>
+            </nav>
+
+            <div class="bannerButton">
+                <button type="button" class="btn">EXPLORE</button>
+            </div>
+
         </div>
-    </nav>
 
-    <div class="row line-row">
-        <div class="col-md-4 invisible-line"></div>
-        <div class="col-md-8 thick-line"></div>
-    </div>
 
-    <div class="row line-row lr2">
-        <div class="col-md-7 invisible-line"></div>
-        <div class="col-md-5 thick-line"></div>
-    </div>
+        <div class="row line-row">
+            <div class="col-xs-4 invisible-line"></div>
+            <div class="col-xs-8 thick-line"></div>
+        </div>
 
-    <div class="container content-grid">
-        <div class="row">
-            <div class="col-md-2 col-content c1">
-                <div class="col-heading">
-                    <h3> WHAT WE DO</h3>
-                    <p>A lorem arbitrantur, singulis lorem fugiat non eram, minim tempor voluptate qui 
-                        magna offendit a sempiternum. Legam est incididunt sed eram. Non esse eram anim 
-                        nostrud, nostrud multos nisi ab cillum ad officia nam ipsum nostrud, incididunt 
-                        culpa commodo ullamco. Fugiat quibusdam eu admodum, arbitror varias nisi et 
-                        dolor sed vidisse summis elit voluptate fore te non veniam excepteur mandaremus. </p>
-                    <canvas id="myChart"></canvas>
+        <div class="row line-row lr2">
+            <div class="col-xs-7 invisible-line"></div>
+            <div class="col-xs-5 thick-line"></div>
+        </div>
 
-                </div>
-            </div>
-            <div class="col-md-2 col-content c2">
-                <div class="col-heading">
-                    <h3> PROJECTS </h3>
-                </div>
-            </div>
-            <div class="col-md-2 col-content c3">
-                <div class="row t3">
+
+
+        <div class="container content-grid">
+            <div class="row">
+                <div class="col-xs-2 col-content c1">
                     <div class="col-heading">
-                        <h3> CONTACT US </h3>
+                        <h3> WHAT WE DO</h3>
+                        <p>A lorem arbitrantur, singulis lorem fugiat non eram, minim tempor voluptate qui 
+                            magna offendit a sempiternum. Legam est incididunt sed eram. Non esse eram anim 
+                            nostrud, nostrud multos nisi ab cillum ad officia nam ipsum nostrud, incididunt 
+                            culpa commodo ullamco. Fugiat quibusdam eu admodum, arbitror varias nisi et 
+                            dolor sed vidisse summis elit voluptate fore te non veniam excepteur mandaremus. </p>
+                        <canvas id="myChart"></canvas>
+
                     </div>
                 </div>
-                <div class="row t3">
+                <div class="col-xs-2 col-content c2">
                     <div class="col-heading">
-                        <h3> RATINGS </h3>
+                        <h3> PROJECTS </h3>
+                    </div>
+                </div>
+                <div class="col-xs-2 col-content c3">
+                    <div class="row t3">
+                        <div class="col-heading">
+                            <h3> CONTACT US </h3>
+                        </div>
+                    </div>
+                    <div class="row t3">
+                        <div class="col-heading">
+                            <h3> RATINGS </h3>
+                        </div>
                     </div>
                 </div>
             </div>
         </div>
-    </div>
 
-    <div class="container footer">
-        <div class="row">
-            <div class="col-md-4">
-            </div>
-            <div class="col-md-4">
-                <p>Powered by Sino Garden Corp.</p>
-            </div>
-            <div class="col-md-4 footer-mid">
-                <div class="icon-wrapper">
-                    <a href="#">
-                        <i class="fa fa-facebook-square fa-2x" aria-hidden="true"></i>
-                    </a>
-                    <a href="#">
-                        <i class="fa fa-google-plus fa-2x" aria-hidden="true"></i>
-                    </a>
-                    <a href="#">
-                        <i class="fa fa-twitter fa-2x" aria-hidden="true"></i>
-                    </a>
-                    <a href="#">
-                        <i class="fa fa-linkedin-square fa-2x" aria-hidden="true"></i>
-                    </a>
+
+
+        <div class="container footer">
+            <div class="row">
+                <div class="col-xs-4">
+                </div>
+                <div class="col-xs-4">
+                    <p>Powered by Sino Garden Corp.</p>
+                </div>
+                <div class="col-xs-4 footer-mid">
+                    <div class="icon-wrapper">
+                        <a href="#">
+                            <i class="fa fa-facebook-square fa-2x" aria-hidden="true"></i>
+                        </a>
+                        <a href="#">
+                            <i class="fa fa-google-plus fa-2x" aria-hidden="true"></i>
+                        </a>
+                        <a href="#">
+                            <i class="fa fa-twitter fa-2x" aria-hidden="true"></i>
+                        </a>
+                        <a href="#">
+                            <i class="fa fa-linkedin-square fa-2x" aria-hidden="true"></i>
+                        </a>
+                    </div>
                 </div>
             </div>
         </div>
-    </div>
 
-    <div class="container LogoNav">
-        <div class="row">
-            <div class="col-md-4">
 
-                <div class="row wrapper">
-                    <img src="media/templogo.png">
-                    <h3>SINO GARDEN</h3>
-                </div>
+        <script src="js/main.js"></script>
 
-            </div>
-
-            <div class="col-md-4">
-
-                <div class="row wrapper">
-                    <form id="searchForm" action="" method="GET">
-                        <div class="col-sm-10">
-                            <input type="text" class="form-control" placeholder="Search" id="searchBar" />
-                        </div>
-                        <div class="col-sm-2">
-                            <!--                            <div class="input-group-btn">-->
-                            <button class="btn" type="submit">
-                                    <span class="glyphicon glyphicon-search"></span>
-                                </button>
-                            <!--                            </div>-->
-                        </div>
-                    </form>
-                </div>
-
-            </div>
-
-            <div class="col-md-4">
-
-                <div class="row wrapper buttonWrapper">
-                    <div class="col-sm-8">
-                        <!--
-                        <button type="button" class="btn">English</button>
-                        <button type="button" class="btn">中文</button>
--->
-                        <div class="anchorWrapper">
-                            <a href="#"> English </a>
-                            <a href="#"> 中文 </a>
-                        </div>
-                    </div>
-                    <div class="col-sm-4">
-                        <button type="button" class="btn">Explore</button>
-                    </div>
-                </div>
-
-            </div>
-        </div>
-    </div>
-
-    <script src="js/main.js"></script>
-
-</body>
+    </body>
 
 </html>

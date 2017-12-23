@@ -15,6 +15,7 @@ body {
 }
 
 .logoNav {
+    overflow: hidden;
     border-bottom: 2px solid rgba(195, 16, 0, .6);
     width: 100%;
     height: 75px;
@@ -23,22 +24,23 @@ body {
     display: flex;
     align-items: center;
     z-index: 999;
-    position: absolute;
+    position: relative;
     top: 0;
     padding-left: 15px;
     padding-right: 15px;
     margin: 0px;
+    display: inline-block;
 }
 
 .logoNav .row {
-    width: 100%;
-    height: 100%;
+    width: auto;
+    height: auto;
     margin: 0px;
 }
 
 .wrapper {
     height: 100%;
-    width: 100%;
+    width: auto;
     text-align: center;
     vertical-align: middle;
     margin: 0 auto;
@@ -63,63 +65,61 @@ body {
 .wrapper h3 {
     float: left;
     font-size: 35;
-    /*    font-family: 'Source Sans Pro', sans-serif;*/
-    /*    margin: 0 auto;*/
 }
 
 /* middle nav col */
+
+#searchBar {
+    margin: 10px 0;
+}
 
 #searchForm {
     height: 100%;
     vertical-align: center;
     margin: 0 auto;
+    width: auto;
 }
 
 #searchForm input {
-    position: absolute;
     height: 35px;
-    width: 100%;
-    top: 20px;
+    width: 100%;    
+    position: relative;
 }
 
 #searchForm button {
-    position: absolute;
-    height: 35px;
-    width: auto;
-    top: 20px;
-    right: 50%;
     border-radius: 0px;
+    width: auto;
+    height: 35px;
     background-color: black;
+    position: relative;
+    top: -4.5rem;
+    text-align: right;
+    left: 50%;
 }
 
 /* right nav col */
 
 .anchorWrapper {
-    margin-top: 25px;
-    margin-left: 30px;
+    margin-top: 15px;
+    /*    margin-left: 30px;*/
 }
 
 .anchorWrapper a {
-    margin: 20px;
-    /*    font-family: 'Source Sans Pro', sans-serif;*/
+    margin: 10px;
     font-size: 16px;
     text-decoration: none;
     color: black;
 }
 
 .buttonWrapper button {
-    width: 100px;
     border-radius: 100px;
-    margin: 0 auto;
-    display: inline-block;
-    margin-top: 20px;
-    margin-left: 20px;
-    /*    font-family: 'Source Sans Pro', sans-serif;*/
+    margin-top: 10px;
     font-size: 16px;
     background-color: black;
     color: rgb(195, 16, 0);
     font-weight: bold;
     text-align: center;
+    position: relative;
 }
 
 .buttonWrapper button:hover {
@@ -133,7 +133,7 @@ body {
     height: 90px;
     width: 100%;
     border-top: 1px solid rgba(195, 16, 0, .2);
-margin-top: 50px;
+    margin-top: 50px;
 }
 
 .footer a {
@@ -183,4 +183,18 @@ margin-top: 50px;
 
 .lr2 .thick-line {
     border-bottom: 1px solid rgba(195, 16, 0, .2);
+}
+
+.dropdown-menu {
+    min-width: 0px;
+}
+
+.dropdown-toggle:focus {
+    background-color: red;
+}
+
+.navbar-inverse .navbar-nav>.open>a, .navbar-inverse .navbar-nav>.open>a:focus, .navbar-inverse .navbar-nav>.open>a:hover {
+    background-color: white !important;
+    background-image: none !important;
+
 }

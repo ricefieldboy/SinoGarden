@@ -2,33 +2,51 @@
     height: 100%;
     width: 100%;
     position: relative;
-    top: 0px;
     padding: 0px;
-    /*
+
     background-image: url("../media/temp.jpg");
-    background-attachment: fixed;
+/*    background-attachment: fixed;*/
     background-position: center;
-    background-repeat: no-repeat;
+/*    background-repeat: no-repeat;*/
     background-size: cover;
-*/
 }
 
 .fullscreenBanner button {
+/*
     position: absolute;
-    top: 60%;
-    left: 45%;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
     width: 150px;
     height: 50px;
-/*    background-color: white;*/
     color: rgb(195, 16, 0);
     text-decoration: none;
     font-family: Open Sans !important;
     font-size: 18px;
     font-family: 600 !important;
-/*    background: none/*/
     font-weight: bolder;
     background-color: rgba(0 , 0 , 0, 0.7);
-    border: px solid black;
+    border: 1px solid black;
+    border-radius: 0px;
+    border-color: rgba(195, 16, 0, 0.2);
+*/
+}
+
+.bannerButton button{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 150px;
+    height: 50px;
+    color: rgb(195, 16, 0);
+    text-decoration: none;
+    font-family: Open Sans !important;
+    font-size: 18px;
+    font-family: 600 !important;
+    font-weight: bolder;
+    background-color: rgba(0 , 0 , 0, 0.7);
+    border: 1px solid black;
     border-radius: 0px;
     border-color: rgba(195, 16, 0, 0.2);
 }
@@ -46,8 +64,8 @@
 
 .bannerNav {
     width: 100%;
-    position: absolute;
-    top: 75px;
+    position: relative;
+    /*    top: 75px;*/
     height: 50px;
     z-index: 999;
     background: none !important;
@@ -72,7 +90,7 @@
     text-shadow: none !important;
 }
 
-li:hover {
+.dropdown:hover {
     -webkit-transition: 0.5s ease;
     transition: 0.5s ease;
     border-bottom: 3px solid black;
