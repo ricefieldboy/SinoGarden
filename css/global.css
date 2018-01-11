@@ -18,7 +18,7 @@ body {
     overflow: hidden;
     border-bottom: 2px solid rgba(195, 16, 0, .6);
     width: 100%;
-    text-align: center;
+    text-align: center; 
     position: relative;
     padding-left: 15px;
     padding-right: 15px;
@@ -33,9 +33,9 @@ body {
     margin: 0px;
 }
 
-.wrapper {
-    text-align: center;
-    vertical-align: middle;
+.logo h1{
+    font-size: 28px;
+    margin: 15;
 }
 
 /* left nav col */
@@ -47,16 +47,6 @@ body {
 .glyphicon-search:hover {
     color: white;
     transition: 1s;
-}
-
-.wrapper img {
-    height: 73px;
-    float: left;
-}
-
-.wrapper h3 {
-    float: left;
-    font-size: 35;
 }
 
 /* middle nav col */
@@ -83,19 +73,13 @@ body {
     width: auto;
     height: 35px;
     background-color: black;
-    /*
-    position: relative;
-    top: -4.5rem;
-    */
     text-align: right;
-    /*    left: 50%;*/
 }
 
 /* right nav col */
 
 .anchorWrapper {
-    margin-top: 10px;
-    /*    margin-left: 30px;*/
+    margin-top: 15px;
 }
 
 .anchorWrapper a {
@@ -187,14 +171,12 @@ body {
     background-color: red;
 }
 
-.navbar-inverse .navbar-nav>.open>a, .navbar-inverse .navbar-nav>.open>a:focus, .navbar-inverse .navbar-nav>.open>a:hover {
-    background-color: white !important;
-    background-image: none !important;
-
-}
-
 .input-group-addon {
     background: none;
     padding: 0;
     border: none;
+}
+
+.navbar-inverse .navbar-toggle .icon-bar {
+    background-color: #888;
 }
