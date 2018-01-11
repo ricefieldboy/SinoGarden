@@ -46,7 +46,7 @@ body {
 
 .glyphicon-search:hover {
     color: white;
-    transition: 1s;
+    transition: 0.5s;
 }
 
 /* middle nav col */
@@ -98,10 +98,13 @@ body {
     font-weight: bold;
     text-align: center;
     position: relative;
+    border: none;
+    padding: 6 12px;
+    outline: none;
 }
 
 .buttonWrapper button:hover {
-    transition: 1s;
+    transition: 0.5s;
     color: white;
 }
 

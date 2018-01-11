@@ -28,7 +28,7 @@
     background-color: rgba(0 , 0 , 0, 0.7);
     border: 1px solid black;
     border-radius: 0px;
-    border-color: rgba(195, 16, 0, 0.2);
+    border-color: s;
 */
 }
 
@@ -49,12 +49,12 @@
     border: 1px solid black;
     border-radius: 0px;
     border-color: rgba(195, 16, 0, 0.2);
+    outline: none;
 }
 
-.fullscreenBanner button:hover {
-    color: white;   
-    background-color: rgba(0 , 0 , 0, 0.9);
-    transition: 1s;
+.bannerButton button:hover {
+    transition: 0.5s;
+    color: white;
 }
 
 .fullscreenBanner img {
