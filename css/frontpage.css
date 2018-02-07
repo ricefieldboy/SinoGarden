@@ -140,3 +140,53 @@ a {
     height: 50px;
     width: 50px;
 }
+
+.content-links {
+    width: 100%;
+    background: rgba(0, 0, 0, 0.8);
+    text-align: center;
+    padding-bottom: 65;
+}
+
+.link-intro {
+    color: rgb(195, 16, 0);
+    margin-bottom: 40px;
+    margin-top: 50px;
+    text-transform:uppercase;
+}
+
+
+ul{
+    list-style-type: none;
+    padding: 0;
+    text-align: left;
+}
+
+li {
+    margin-bottom: 3px;
+}
+
+ul a {
+    color: white;
+    text-decoration: none !important;
+}
+
+ul a:hover {
+    color: white;
+}
+
+.column-divider {
+    padding-left: 33%;
+}
+
+.links-header {
+    font-weight: 600;   
+    font-family: Open Sans;
+    text-transform: uppercase;
+    margin-top: 25px;
+}
+
+.links {
+    font-family: Open Sans;
+    text-transform: uppercase;
+}

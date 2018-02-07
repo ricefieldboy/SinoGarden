@@ -114,7 +114,10 @@ body {
     height: 90px;
     width: 100%;
     border-top: 1px solid rgba(195, 16, 0, .2);
-    margin-top: 50px;
+    /*    margin-top: 50px;*/
+    background: rgba(0, 0, 0, 0.85);
+    color: rgb(195, 16, 0);
+
 }
 
 .footer a {
@@ -166,6 +169,10 @@ body {
     border-bottom: 1px solid rgba(195, 16, 0, .2);
 }
 
+.lr3 .thick-line {
+    border-bottom: 2px solid rgba(195, 16, 0, 1);
+}
+
 .dropdown-menu {
     min-width: 0px;
 }
@@ -182,4 +189,8 @@ body {
 
 .navbar-inverse .navbar-toggle .icon-bar {
     background-color: #888;
+}
+
+.line-wrapper {
+/*    margin-bottom: 2px;*/
 }
