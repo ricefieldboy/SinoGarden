@@ -82,19 +82,19 @@
 }
 
 .c1 {
-    background: url("../media/1.jpg");
+    background: url("../media/left1.png");
     background-size: 100% 100%;
     background-repeat: no-repeat;
 }
 
 .c2 {
-    background: url("../media/2.jpg");
+    background: url("../media/middle1.png");
     background-size: 100% 100%;
     background-repeat: no-repeat;
 }
 
 .c3 {
-    background: url("../media/3.jpg");
+    background: url("../media/right1.png");
     background-size: 100% 100%;
     background-repeat: no-repeat;
 }
@@ -143,16 +143,17 @@ a {
 
 .content-links {
     width: 100%;
-    background: rgba(1, 0, 0, 0.4);
+    background: rgb(245,245,245);
+    /* background: #000000; */
     text-align: center;
     padding-bottom: 65;
 }
 
 .link-intro {
-    color: rgb(195, 16, 0);
+    /* color: rgb(195, 16, 0); */
     margin-bottom: 40px;
     margin-top: 50px;
-    text-transform:uppercase;
+    /* text-transform:uppercase; */
 }
 
 
@@ -180,13 +181,17 @@ ul a:hover {
 }
 
 .links-header {
-    font-weight: 600;
     font-family: Open Sans;
     text-transform: uppercase;
     margin-top: 25px;
+    /* background: #000000; */
+    font-size: 14px;
+
 }
 
 .links {
     font-family: Open Sans;
-    text-transform: uppercase;
+    /* text-transform: uppercase; */
+      /* background: #000000; */
+      font-size: 13px;
 }
