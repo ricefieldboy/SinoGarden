@@ -36,7 +36,7 @@
 
 .bannerButton button:hover {
     transition: 0.5s;
-    color: red;
+    color: rgb(195, 16, 0);
 }
 
 .fullscreenBanner img {
