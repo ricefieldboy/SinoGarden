@@ -18,7 +18,7 @@ body {
     overflow: hidden;
     border-bottom: 2px solid rgba(195, 16, 0, .6);
     width: 100%;
-    text-align: center; 
+    text-align: center;
     position: relative;
     padding-left: 15px;
     padding-right: 15px;
@@ -64,7 +64,7 @@ body {
 
 #searchForm input {
     height: 35px;
-    width: 100%;    
+    width: 100%;
     position: relative;
 }
 
@@ -72,7 +72,8 @@ body {
     border-radius: 0px;
     width: auto;
     height: 35px;
-    background-color: black;
+    background-color: white;
+    /* color:black; */
     text-align: right;
 }
 
@@ -111,13 +112,11 @@ body {
 /* footer */
 
 .footer {
-    height: 90px;
+    height: 75px;
     width: 100%;
-    border-top: 1px solid rgba(195, 16, 0, .2);
-    /*    margin-top: 50px;*/
-    background: rgba(0, 0, 0, 0.85);
-    color: rgb(195, 16, 0);
-
+    border-top: 1px solid rgb(215,215,215);
+    color: darkslategray;
+    background: rgb(230,230,230);
 }
 
 .footer a {
