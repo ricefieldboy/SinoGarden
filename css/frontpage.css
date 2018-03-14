@@ -11,8 +11,6 @@
     background-size: cover;
 }
 
-
-
 .bannerButton button{
     position: absolute;
     top: 50%;
@@ -55,20 +53,46 @@
     -webkit-box-shadow: none !important;
 }
 
-.bannerNav a {
-    font-size: 14px;
-    color: rgb(195, 16, 0) !important;
-       /* font-family: 'Source Sans Pro', sans-serif; */
-    text-decoration: none;
-    font-weight: 600;
-    text-shadow: none !important;
+
+.navbar-inverse .navbar-nav>.active>a, .navbar-inverse .navbar-nav>.open>a {
+    -webkit-box-shadow: none !important;
+    box-shadow: none !important;
 }
 
-.dropdown:hover {
-    -webkit-transition: 0.5s ease;
-    transition: 0.5s ease;
-    border-bottom: 3px solid black;
+.dropdown-menu li {
+    height: 45px;
+    width: 100px;
 }
+
+.dropdown-menu li a {
+    display: inline-flex;
+    align-items: center;
+    width: 100%;
+    height: 100%;
+}
+
+.sub-menu {
+    padding: 0px !important;
+}
+
+.bannerNav a {
+    font-size: 14px;
+    color: black !important;
+    text-decoration: none;
+    text-shadow: none !important;
+    height: 100%;
+}
+
+.bannerNav a:hover {
+    font-weight: bold;
+}
+/*
+.dropdown:hover {
+-webkit-transition: 0.5s ease;
+transition: 0.5s ease;
+border-bottom: 3px solid black;
+}
+*/
 
 /* content grid starts here */
 
@@ -134,7 +158,15 @@ a {
 }
 
 .navbar-inverse .navbar-nav>a, .navbar-inverse .navbar-nav>.open>a, nav ul li.dropdown ul.dropdown-menu {
-    background: rgb(245,245,245) !important;
+    background: rgba(235, 235, 235, 0.2) !important;
+    background-color: none !important;
+    border: none !important;
+}
+
+
+.navbar-inverse .navbar-nav>a, .navbar-inverse .navbar-nav>.open>a, nav ul li.dropdown ul.dropdown-menu li a:hover {
+    background: white !important;
+    background-color: none !important;
 }
 
 #myChart {
@@ -156,9 +188,6 @@ a {
     margin-top: 50px;
     /* text-transform:uppercase; */
 }
-
-
-
 
 ul{
     list-style-type: none;
@@ -195,6 +224,6 @@ ul a:hover {
 .links {
     font-family: Open Sans;
     /* text-transform: uppercase; */
-      /* background: #000000; */
-      font-size: 13px;
+    /* background: #000000; */
+    font-size: 13px;
 }

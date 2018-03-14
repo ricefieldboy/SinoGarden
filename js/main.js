@@ -23,32 +23,40 @@ var pieChart= new Chart(myChart,{
             position:"top",
         },
     }
-    
-});
 
+});
 
 //Scripp reveal
-        window.sr = ScrollReveal({reset:true,duration: 2000
+window.sr = ScrollReveal({reset:true,duration: 2000
+                         });
+
+sr.reveal('.c1', {
+    distance:'300px',
+    origin:'left',
+    viewFactor: 0.2
 });
-        
-        sr.reveal('.c1', {
-          distance:'300px',
-            origin:'left',
-          viewFactor: 0.2
-        });
-        
-        sr.reveal('.c2', {
 
-            distance: '600px',
-            origin:'left',
-          viewFactor: 0.2
-        });
-        
-        sr.reveal('.c3', {
+sr.reveal('.c2', {
 
-          distance:'900px',
-            origin:'left',
-          viewFactor: 0.2
-        });
-    
+    distance: '600px',
+    origin:'left',
+    viewFactor: 0.2
+});
+
+sr.reveal('.c3', {
+
+    distance:'900px',
+    origin:'left',
+    viewFactor: 0.2
+});
+
+
+$(document).ready(function(){
+
+    $('.dropdown').on('mouseenter mouseleave click tap', function(event) {
+        event.preventDefault();
+        $(this).toggleClass("open");
+    });
+
+});
 

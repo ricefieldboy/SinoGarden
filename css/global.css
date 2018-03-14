@@ -180,6 +180,18 @@ body {
     background-color: red;
 }
 
+
+
+.nav>li>a:focus, .nav>li>a:hover {
+    background-color: none;
+}
+
+
+.dropdown-menu:hover {
+    color: green !important;
+    background-color: green !important;
+}
+
 .input-group-addon {
     background: none;
     padding: 0;
