@@ -49,7 +49,8 @@
     margin-top: 75px;
     margin-bottom: 75px;
     height: 500px;
-    /* border: 0.1px solid black; */
+    border: 1px solid black;
+    border-color: transparent;
 }
 
 .c1 {
@@ -71,7 +72,8 @@
 }
 
 .t3 {
-    height: 50%;
+        height: 50%;
+    /*    margin: 0px;*/
 }
 
 .t3:first-of-type {
