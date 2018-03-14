@@ -41,11 +41,11 @@ body {
 /* left nav col */
 
 .glyphicon-search {
-    color: rgb(195, 16, 0);
+    color: black;
 }
 
 .glyphicon-search:hover {
-    color: white;
+    color: rgb(195, 16, 0);
     transition: 0.5s;
 }
 
