@@ -1,15 +1,18 @@
 #form-container {
 	text-align: center;
 	/* padding: 15px; */
-	margin-top: -30px;
+	margin-top: -35px;
 }
 
 .form-group {
 	margin-bottom: 20px;
 }
 
+
+
 #contact {
-	margin-bottom: 30px;
+	margin-bottom: 15px;
+	font-weight: bold;
 }
 
 #form-container label {
@@ -17,6 +20,6 @@
 }
 
 #contact-submit{
-	margin-top: 15px;
+	margin-top: 10px;
 
 }

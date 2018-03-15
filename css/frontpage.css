@@ -3,7 +3,7 @@
     width: 100%;
     position: relative;
     padding: 0px;
-    background-image: url("../media/temp.jpg");
+    background-image: url("../media/temp.png");
     /*    background-attachment: fixed;*/
     background-position: center;
     /*    background-repeat: no-repeat;*/
@@ -106,7 +106,7 @@ a {
 .content-links {
     width: 100%;
     background: rgb(245,245,245);
-    border-top: 1px solid rgb(235,235,235);
+    border-top: 1px solid rgb(240,240,240);
     text-align: center;
     padding-bottom: 65;
 }
@@ -116,6 +116,7 @@ a {
     margin-bottom: 40px;
     margin-top: 50px;
     /* text-transform:uppercase; */
+    font-weight: bold;
 }
 
 ul{
@@ -144,6 +145,8 @@ ul a:hover {
 .links-header {
     font-family: Open Sans;
     text-transform: uppercase;
+  /* font-style: oblique; */
+  font-weight: bold;
     margin-top: 25px;
     /* background: #000000; */
     font-size: 14px;
