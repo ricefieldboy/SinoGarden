@@ -6,7 +6,7 @@ $(document).ready(function(){
             url: "./php/email.php",
             data: $('#contact').serialize(),
             success: function(data) {
-                alert("yes");
+                alert(data);
             }
         });
     });
