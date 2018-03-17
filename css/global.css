@@ -17,7 +17,8 @@ body {
 
 .logoNav {
     overflow: hidden;
-    border-bottom: 1px solid rgba(195, 16, 0, .6);
+      /* red line below nav */
+    /* border-bottom: 1px solid rgba(195, 16, 0, .6); */
     /* red line below nav */
     width: 100%;
     text-align: center;
