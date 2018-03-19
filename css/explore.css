@@ -15,22 +15,16 @@
 
 #services-container
 {
-  margin-bottom: 50px;
+  /* margin-bottom: 50px; */
     font-size: 15px;
   /* border: 20px; */
 }
 #services-container ul
 {
    list-style-type: square;
+	 margin-left: 50px;
 }
 
-
-#current-container{
-      font-size: 15px;
-}
-#current-container ul{
-     list-style-type: square;
-}
 
 #bottom{
   margin-top: 200px;
